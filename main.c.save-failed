@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ char ope = 0;
+  float num1 , num2 ;
+
+  printf(" enter first number :");
+  scanf("%f" , &num1);
+
+  printf(" enter ope :");
+  scanf(" %c" , &ope);
+
+  printf(" enter second number :");
+  scanf("%f" , &num2);
+
+
+  switch(ope){
+
+  case '+':
+      printf("%g + %g = %g" , num1,num2,num1+num2);
+      break;
+  case '-':
+      printf("%g - %g = %g" , num1,num2,num1-num2);
+      break;
+  case '*':
+      printf("%g * %g = %g" , num1,num2,num1*num2);
+      break;
+  case '/':
+      printf("%g / %g = %g" , num1,num2,num1/num2);
+      break;
+  default:
+      printf(" wrong choice !");
+
+
+  }
+
+  return 0;
+
+}
+
+
+
+
+
+  return 0;
+
+}
